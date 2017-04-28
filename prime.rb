@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(int)
-  if int > 1
-    range = Array(1..int - 1)
+  return false if int <= 1
+    range = Array(1..Math.sqrt(int).to_i)
     range.each do |num|
       if num != 1
         if int % num == 0
@@ -9,9 +9,6 @@ def prime?(int)
         end
       end
     end
-  else
-    return false
-  end
   true
 end
 
@@ -27,5 +24,6 @@ def zero_to_a_hundred
     end
   end
 end
+
 
 zero_to_a_hundred

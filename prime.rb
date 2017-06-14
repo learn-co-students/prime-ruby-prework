@@ -13,7 +13,7 @@ def prime?(number)
   if sqrt.class == Float
     last = 3
 
-    while (last <= sqrt.ceil) do
+    while (last <= sqrt.ceill) do
       if(number % last == 0)
         return false
       end

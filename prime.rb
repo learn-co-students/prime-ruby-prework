@@ -2,7 +2,7 @@
 def prime?(integer)
   index = 2
   array = []
-  until index > integer
+  while index < integer
     array.push(integer % index)
     index += 1
   end

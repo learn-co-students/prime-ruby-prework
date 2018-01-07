@@ -1,1 +1,18 @@
-# Add  code here!
+def prime?(number)
+
+  while number < 2
+    return false
+  end
+
+  it_num = 2
+
+  while it_num < number
+    if number % it_num == 0
+      return false
+    else
+      it_num += 1
+    end
+  end
+
+  return true
+end

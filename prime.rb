@@ -13,3 +13,5 @@ def prime?(num)
   end
   return true
 end
+
+# https://media1.tenor.com/images/39a1991de9daa13d4d678d441a221648/tenor.gif?itemid=10804060

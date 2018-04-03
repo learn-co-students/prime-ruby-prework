@@ -1,12 +1,16 @@
 # Add  code here!
 def prime?(number)
-    divident = number - 1
-    while divident > 1 && number.divmod(divident)[1] != 0
-        divident -= 1
+    array = (2...number).to_a
+    is_it = true
+    if number <= 1
+        is_it = false
     end
-    if divident == 1
-        true
-    else
-        false
+    array.each do |divident|
+        if number.divmod(divident)[1] == 0
+            is_it = false
+            break
+        end
     end
+    is_it
 end
+

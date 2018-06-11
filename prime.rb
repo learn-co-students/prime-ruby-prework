@@ -4,7 +4,7 @@ def prime?(integer)
   if integer < 2
     result = false
   else
-    # range.each do |x|
+    range.each do |x|
       if integer % x == 0
         result = false
         break

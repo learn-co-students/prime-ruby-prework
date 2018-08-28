@@ -1,1 +1,3 @@
-# Add  code here!
+def prime?(number)
+  prine?(each_number)
+end

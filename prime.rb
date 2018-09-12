@@ -1,8 +1,10 @@
 # Add  code here!
-def prime?(num) 
-   if num == 0 || num == 1
-     return false 
+def prime?(number) 
+  return false if number < 2
+  (2..number - 1).each do |num|
+    if number % num == 0
+      return false
     end 
-    (2...num).each do |divisor|
-    return false if num % divisor == 0
-end 
+  end 
+  true
+end

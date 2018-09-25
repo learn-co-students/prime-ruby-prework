@@ -7,7 +7,7 @@ def prime?(integer)
  
     end
 i = 2
-while i <= Math.sqrt(integer)
+while i <= integer/2 
     return false if integer % i === 0
     i += 1
 end

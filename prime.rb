@@ -1,7 +1,3 @@
-# def prime?(number)
-  # prime_test = number / number
-  # prime_test == (number / number).to_int  ? true : false
-# end
 
 def prime?(num)
 

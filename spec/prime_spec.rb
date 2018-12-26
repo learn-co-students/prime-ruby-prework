@@ -14,7 +14,5 @@ describe "prime?" do
     expect(prime?(1)).to be(false)
     expect(prime?(4)).to be(false)
     expect(prime?(40)).to be(false)
-    expect(prime?(1763)).to be(false)
-    expect(prime?(101013)).to be(false)
   end
 end

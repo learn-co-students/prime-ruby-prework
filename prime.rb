@@ -9,6 +9,9 @@ def prime?(int)
   array.each do |num|
     if int % num == 0
       return false
+    # Break if quotient is less than divisor to make less iterations
+    elsif (int / num) < num
+      break
     end
   end
   true

@@ -1,1 +1,3 @@
-# Add  code here!
+prime?(3)
+
+#confused.
